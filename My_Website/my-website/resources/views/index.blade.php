@@ -14,6 +14,8 @@
         <li><a href="#" class="hover:text-purple-400">Tentang Saya</a></li>
         <li><a href="#" class="hover:text-purple-400">Portofolio</a></li>
         <li><a href="#" class="hover:text-purple-400">Kontak</a></li>
+        <li><a href="{{ route('about')}}" class="hover:text-purple-400">About</a></li>
+        <li><a href="{{ route('login')}}" class="hover:text-purple-400">Login</a></li>
       </ul>
     </nav>
   </header>
